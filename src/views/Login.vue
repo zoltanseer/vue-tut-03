@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <GMap />
+  <div class="login-wrap">
+    <Login />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import GMap from "@/components/home/GMap.vue";
+import Login from "@/components/auth/Login.vue";
 
 export default {
-  name: "home",
+  name: "login",
   components: {
-    GMap
+    Login
   }
 };
 </script>
